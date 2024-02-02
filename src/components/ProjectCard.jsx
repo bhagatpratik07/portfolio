@@ -16,9 +16,17 @@ const ProjectCard = ({
           alt=""
         />
         <div className="flex flex-col justify-between p-4 leading-normal w-full">
-          <h5 className="mb-2 text-2xl font-bold tracking-tight text-white">
-            {title}
-          </h5>
+          <a
+            href={live ? live : github}
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            {" "}
+            <h5 className="mb-2 text-2xl font-bold tracking-tight text-white underline">
+              {title}
+            </h5>
+          </a>
+
           <p className="mb-3 font-normal overflow-hidden overflow-ellipsis">
             {description}
           </p>
@@ -38,14 +46,19 @@ const ProjectCard = ({
           </div>
           <div className="flex">
             {github ? (
-              <a href={github} className="mr-4">
+              <a
+                href={github}
+                className="mr-4"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
                 <FaGithub size={20} />
               </a>
             ) : (
               <></>
             )}
             {live ? (
-              <a href={live}>
+              <a href={live} target="_blank" rel="noreferrer noopener">
                 <FaLink size={20} />
               </a>
             ) : (
