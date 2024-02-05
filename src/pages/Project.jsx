@@ -33,6 +33,7 @@ export default function Project() {
               github={project?.fields?.gitHub}
               live={project?.fields?.liveLink}
               technologies={project?.fields.technologies}
+              shipped={project?.fields.shipped}
             />
           </div>
         ))}

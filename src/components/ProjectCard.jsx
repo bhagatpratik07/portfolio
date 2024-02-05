@@ -6,6 +6,7 @@ const ProjectCard = ({
   github,
   live,
   technologies,
+  shipped,
 }) => {
   return (
     <div className="mb-8">
@@ -20,11 +21,21 @@ const ProjectCard = ({
             href={live ? live : github}
             target="_blank"
             rel="noreferrer noopener"
+            className="flex items-center"
           >
             {" "}
             <h5 className="mb-2 text-2xl font-bold tracking-tight text-white underline">
               {title}
             </h5>
+            {shipped ? (
+              <span className="bg-red-100 ml-4 mb-2 text-white text-sm font-medium me-2 px-2.5 py-0.5 rounded dark:bg-red-900 dark:text-white-300">
+                Shipped
+              </span>
+            ) : (
+              <span className="bg-red-100 ml-4 mb-2 text-white text-sm font-medium me-2 px-2.5 py-0.5 rounded dark:bg-green-900 dark:text-white-300">
+                Building
+              </span>
+            )}
           </a>
 
           <p className="mb-3 font-normal overflow-hidden overflow-ellipsis">
