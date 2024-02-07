@@ -6,5 +6,5 @@
 
 - **React.js**
 - **Tailwind CSS**
-- **Contentful CMS***
+- **Contentful CMS**
 
