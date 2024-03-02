@@ -6,9 +6,10 @@ export default function About() {
         Hey 👋! I&apos;m a{" "}
         <span className="text-white">Full stack developer</span> from India,
         passionate about exploring new tech adventures and solving cool
-        challenges. I&apos;ve got a solid grasp of both front-end and back-end
-        development, and I particularly enjoy working with{" "}
-        <span className="text-white">Reactjs, Nodejs and MongoDB</span>
+        challenges. Currently, I am working as SDE-1 at{" "}
+        <a href="https://ground0.ai" target="_blank" rel="noreferrer">
+          <span className="text-white underline">Ground0</span>
+        </a>
       </p>
       <p className="mb-4">
         I&apos;m all about collaboration, learning, and contributing to projects
@@ -31,3 +32,10 @@ export default function About() {
     </div>
   );
 }
+
+/* 
+Hey there! 👋 I'm a Full stack developer from India, passionate about exploring new tech adventures and solving cool challenges. With a solid grasp of both front-end and back-end development, I especially enjoy working with Reactjs, Nodejs, and MongoDB.
+
+In addition to my technical skills, I thrive on collaboration, learning, and contributing to projects that make a real difference.  Let's team up and build something amazing together! 🚀
+
+*/

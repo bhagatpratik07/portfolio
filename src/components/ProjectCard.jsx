@@ -12,7 +12,7 @@ const ProjectCard = ({
     <div className="mb-8">
       <div className="items-center bg-white border border-gray-200 rounded-lg shadow  hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
         <img
-          className="object-cover w-full rounded-t-lg md:h-auto md:w-90 md:rounded-none md:rounded-s-lg"
+          className="object-cover w-full h-56 md:h-40 lg:h-48 xl:h-56"
           src={image}
           alt=""
         />
