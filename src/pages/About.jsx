@@ -21,7 +21,7 @@ export default function About() {
         className="bg-blue-500 text-white py-2 px-4 rounded-md focus:outline-none focus:shadow-outline-blue "
       >
         <a
-          href="https://drive.google.com/file/d/1H2HPk2ilDg6gFKPqg66k_8jpaurq8NU6/view?usp=sharing"
+          href="https://drive.google.com/file/d/1uN__H-77iRIblEfrv5T_BMfFv51r6g7M/view?usp=sharing"
           className="text-white no-underline mb-4 bg-blue-500 "
           target="_blank"
           rel="noreferrer"
