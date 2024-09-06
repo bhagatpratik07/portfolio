@@ -3,17 +3,18 @@ export default function About() {
     <div className="max-w-3xl mx-auto p-8 font-medium">
       <h2 className="text-2xl font-semibold mb-4 text-white">About Me</h2>
       <p className="mb-4">
-        Hey 👋! I&apos;m a{" "}
-        <span className="text-white">Full stack developer</span> from India,
-        passionate about exploring new tech adventures and solving cool
-        challenges. Currently, I am working as SDE-1 at{" "}
-        <a href="https://ground0.ai" target="_blank" rel="noreferrer">
-          <span className="text-white underline">Ground0</span>
+        Hey there! 👋 I’m a Software Engineer from India, and currently, I’m
+        working as a Full Stack Developer at{" "}
+        <a href="https://louper.io" target="_blank" rel="noreferrer">
+          <span className="text-white underline">Louper</span>
         </a>
+        . I’m super passionate about exploring new tech, solving cool problems,
+        and building things that make a real difference.
       </p>
       <p className="mb-4">
-        I&apos;m all about collaboration, learning, and contributing to projects
-        that truly make a difference. Let&apos;s build something amazing
+        I love working with teams, learning new things every day, and
+        contributing to projects that have a real impact. If you’re all about
+        building exciting stuff, let&apos;s team up and create something awesome
         together! 🚀
       </p>
       <button
